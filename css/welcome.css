@@ -21,8 +21,36 @@ h1:hover {
 
 ul li {
     list-style-type: square;
+
+
+}
+ol li {
+    list-style-type: disc;
 }
 body {
     font-family: 'Anton', sans-serif;
     color: whitesmoke;
 }
+header  {
+    text-align: center;
+}
+table {
+    color: black
+
+;
+}
+a:link{
+    color: green;
+}
+a:active{
+    color: red;
+}
+a:hover {
+    color: blue;
+}
+ .center{
+    text-align: center;
+}
+ ul,ol  {
+     list-style-position: inside;
+ }
