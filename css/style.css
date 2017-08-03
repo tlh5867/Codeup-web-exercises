@@ -28,3 +28,7 @@ h1:hover {
     color: whitesmoke;
 
 }
+
+ul li {
+    list-style-type: square;
+}

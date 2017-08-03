@@ -1,0 +1,28 @@
+.fancy-header{
+    color:floralwhite;
+    text-align: center;
+}
+h2 {
+    color: ghostwhite;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(../img/lightmetal.jpg);
+    background-repeat: repeat-y;
+
+}
+
+h1:hover {
+     text-decoration: underline;
+     color: black;
+
+ }
+
+ul li {
+    list-style-type: square;
+}
+body {
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+}
