@@ -9,8 +9,9 @@
 }
 
 
-.row    {
+.column   {
     width: 100%;
+    background-color: lightblue;
 }
 
 
@@ -21,7 +22,7 @@
 }
 
 
-.column {
+.header {
     float: left;
     padding: 10px;
     border: 2px solid black;
@@ -33,7 +34,7 @@
 .column.one-half {
     width: 50%;
     float: left;
-    background-color:lightcoral ;
+
 }
 
 
@@ -41,13 +42,16 @@
 .column.one-third{
     width: 33.33%;
     background-color: lightgoldenrodyellow;
+    float: left;
 }
 .column.one-fourth {
     width:25%;
     background-color: lightgreen;
+    float: left;
 }
 
 .column.one-eight  {
     width:12.5%;
     background-color: lightsteelblue;
+    float: left;
 }
