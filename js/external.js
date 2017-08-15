@@ -6,4 +6,6 @@ alert('what are you doing on this site, get back to work');
 
 confirm('WELCOME TO MY WEBSITE!!');
 
-prompt('What is your favorite color?');
+var usersfavoritecolor = prompt('What is your favorite color?');
+
+alert  ('awesome,' + usersfavoritecolor)
