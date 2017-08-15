@@ -16,6 +16,7 @@ var favorite = 'blue'; // TODO: change this to your favorite color from the list
 // console.log('colors');
 // var userChoosesColor = confirm('Would you like to answer some questions on colors?');
 // if ('userWantsToAnswerQuestions' === 'color')
+console.log(color);
 
 if (color === 'red') {
     console.log ("Apples are Red");
@@ -24,14 +25,14 @@ if (color === 'red') {
 } else if (color === 'yellow') {
     console.log ("bannanas are yellow");
 } else if (color =='green') {
-    console.log ("grapes are green");
+    console.log ("limes are green");
 } else if (color === 'blue') {
-    console.log ("tardis is blue");
+    console.log ("the tardis is blue");
 } else {
    console.log('I dont know anything about that color!');
 }
 
-(color === favorite) ? console.log(color + "is my favorite color!") : "is not my favorite color";
+(color === favorite) ? console.log(color + "is my favorite color!") : " is not my favorite color"
 
 
 // TODO: Have a final else that will catch indigo and violet.
