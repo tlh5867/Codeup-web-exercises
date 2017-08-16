@@ -53,32 +53,34 @@ switch (color) {
 
 
 
-        // var shopperNames = ["Cameron","Ryan","George"];
-        // var shopperName = shopperNames[Math.floor(Math.random()*shopperNames.length)];
-        //
-        // console.log("Shopper is" + "shopperName");
-        //
-        // switch (shopperName){
-        //     case "Cameron":
-        //         var itemsSubTotal = 180;
-        //         break;
-        //     case "Ryan”:
-        //         itemsSubTotal = 240;
-        //         break;
-        //     case "George”:
-        //         itemsSubTotal = 320;
-        //         break;
-        // }
-        //
-        // console.log(shopperName + "‘s subtotal is $” + itemsSubTotal);
-        //
-        // if (itemsSubTotal > 200){
-        //     var itemsGrandTotal = itemsSubTotal-(itemsSubTotal*.1);
-        //     console.log(shopperName + "‘s total after discount is $” + itemsGrandTotal);
-        // }else{
-        //     itemsGrandTotal = itemsSubTotal;
-        //     console.log(shopperName + "‘s total is $” + itemsGrandTotal + “. They did not get a discount.“);
-        // }
+        var shopperNames = ["Cameron","Ryan","George"];
+        var shopperName = shopperNames[Math.floor(Math.random()*shopperNames.length)];
+
+        console.log("Shopper is" + "shopperName");
+
+        switch (shopperName){
+            case "Cameron":
+                var itemsSubTotal = 180;
+                break;
+            case "Ryan":
+                itemsSubTotal = 240;
+                break;
+            case "George":
+                itemsSubTotal = 320;
+                break;
+        }
+
+        console.log(shopperName + "‘s subtotal is $” + itemsSubTotal):
+
+        if (itemsSubTotal > 200){
+            var itemsGrandTotal = itemsSubTotal-(itemsSubTotal*.1);
+            console.log(shopperName + "‘s total after discount is $” + itemsGrandTotal);
+
+        }else{
+            itemsGrandTotal = itemsSubTotal;
+            console.log(shopperName + "‘s total is $” + itemsGrandTotal + “. They did not get a discount.“);
+        }
+
 
         var luckyNumber = Math.floor(Math.random()*6)
         var subtotal = 60;
