@@ -119,3 +119,18 @@ switch (color) {
 
 
         }
+
+
+        var maybe =confirm("Do you want to enter a number?");
+
+        if (maybe === true){
+            var probablyANumber = prompt("enter a number");
+            if (isNAN)(probablyANumber)) {
+                alert("that was not a number");
+            } else {
+                if (probablyANumber % 2 === 0){
+                    alert("your number is even");
+                }else {
+
+            }
+        }
