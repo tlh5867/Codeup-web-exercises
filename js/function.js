@@ -9,10 +9,10 @@
  *  > sayHello("codeup") // returns "Hello, codeup!"
  */
 
-var myNameIs = "tomas";
+var myNameIs = "Tomas";
 
 function sayHello(Tomas) {
-    console.log("Hello, " + Tomas + "!");
+    console.log ("Hello, " + Tomas + "!");
 
 }
     sayHello(myNameIs);
@@ -74,6 +74,11 @@ isOdd(random);
 // }
 // calculateTip(total);
 
+function calculateTip(percentage, total){
+    var tip = percentage * total;
+    return tip;
+
+}
 /**
  * TODO: use prompt and alert in combination with your calculateTip function to
  * prompt the user for the bill total and a percentage they would like to tip,
@@ -81,7 +86,7 @@ isOdd(random);
  */
 
 var bill = prompt ("what was the total of your bill?");
-var tipAmount = prompt ("How much would you like to tip");
+var tipAmount = prompt ("What percentage would you like to tip");
 
 function calculateTip(tip){
     (tip = (tipAmount/100) * bill);
