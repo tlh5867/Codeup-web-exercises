@@ -1,17 +1,25 @@
-(function(){
+(function() {
     "use strict";
+
+    var person = {
+        /*literal object representation*/
+        firstName: "Tomas",
+        lastName: "Hipolito",
+
+    };
+//console.log(person);
+    person.sayHello = function () {
+        return "Hello from " + this.firstName + " " + this.lastName + "!";
+    }
+    // (person.firstName + " " + person.lastName);
+    // console.log ("Hello from " + person.sayHello + "!");
+    console.log(person.sayHello());
+
 
     /**
      * TODO:
      * Create person object, store it in a variable named person
      */
-var person = {
-    firstName : "Tomas",
-    lastName  : "Hipolito",
-    myAge     : 29,
-    eyeColor  : "brown",
-    };
-console.log(person);
     /**
      * TODO:
      * Create firstName and lastName properties in your person object, and
@@ -42,11 +50,27 @@ console.log(person);
      * and console.log the relevant messages for each person
      */
 
-    // var shoppers = [
-    //     {name: 'Cameron', amount: 180},
-    //     {name: 'Ryan', amount: 250},
-    //     {name: 'George', amount: 320}
-    // ];
+    var shoppers = [
+        {name: 'Cameron', amount: 180},
+        {name: 'Ryan', amount: 250},
+        {name: 'George', amount: 320}
+    ];
+
+    for (var i = 0; i < shoppers.length; i++) {
 
 
-})();
+        var discount = 0;
+        var totalAfterDiscount = shoppers[i].amount;
+        /*scalar values --> constants*/
+
+        if (shoppers[i].amount > 200) {
+            discount = .1;
+            totalAfterDiscount = shoppers[i].amount - shoppers[i].amount * discount;
+
+        }
+    }
+    console.log(shoppers[i].name + " has to pay $" + shoppers[i].amount + " it has a discount of $" + discount + "the total to pay after the discount is $" + totalAfterDiscount);
+}
+
+
+)();
