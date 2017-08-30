@@ -3,7 +3,7 @@
 
 (function() {
     var mapOptions = {
-        zoom: 18,
+        zoom: 25,
         center: {
             lat: 30.2492,
             lng: -97.7495
@@ -33,7 +33,6 @@
                 alert("Geocoding was not successful - STATUS" + status);
             }
         });
-
 
     var HomeSlice = { lat:30.2492,lng: -97.7495};
 
