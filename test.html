@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    'use strict'
+    //let gives you the block level scope
+
+    const firstName ="Tomas";
+
+    function printName(name) {
+        let lastName ="Hipolito";
+        console.log(firstName);
+        console.log(name);
+        console.log(lastName);
+    }
+
+    printName(firstName);
+    //console.log(lastName);
+    //template string
+    let address= "Navarro 300";
+    let zipCode= 78205;
+
+    console.log(`${address}-${zipCode} San Antonio, TX`);
+
+
+</script>
+</body>
+</html>
