@@ -90,6 +90,8 @@ users.forEach(function(user) {
 developers.forEach(function (developer) {
 
     // TODO: rewrite the assignment below to use template strings
-    list += '<li>' + developer + '</li>';
-});
-list += '</ul>';
+    let list = `<ul>`;
+    for (let developer of developers){
+        list += `<li>${developer}</li>`;
+    }
+list += '</ul>';}
