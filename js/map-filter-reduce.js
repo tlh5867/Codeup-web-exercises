@@ -77,5 +77,5 @@ let reduces = users.reduce((obKeys, obValues) => {
     }, {});
     console.log(reduces);
 
-    
+
 
